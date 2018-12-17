@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+.con_body{
+    background-color:lightgray;
+    margin-bottom: 50px;
+}
+main{
+    font-family: 'Dosis', sans-serif;
+    text-align:center;
+    
+}
+main h1{
+    font-size:40px;
+}
+#logo{
+    display: flex;
+    width:5%;
+    height:5%;
+    margin-left:5%;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+a:hover{
+    color:black;
+}
+
+h2{
+    font-weight: 100;
+    font-size:35px;
+}
+main p{
+    text-align:center;
+    line-height: 1.5em;
+    margin-left:20%;
+    margin-right: 20%;
+    font-size:28px;
+}
+
+
+.contact_article{
+    display: flex;;    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.maps,.address{
+    width:50%;
+}
+iframe{
+    width:95%;
+    height:100%;
+
+}
+.contact_article p{
+    line-height: 1.5em;
+}
+.address{
+    background-color: yellow;
+            
+}
+section h1,h3,p{
+    margin-left:5%;
+    position:relative;
+}
+
+.address h1{
+    font-size:50px;
+}
+
+hr{
+    position:relative;
+    margin-left:7px;
+    background-color: black;
+    height:2px;
+
+}
+
+
+
+
+
+
+ @media only screen and (max-width: 360px) {
+        .contact_article{
+            display: flex;;    
+            background-color: brown;
+            flex-direction: column;
+        }
+        
+        iframe{
+            width:100%;
+            height:70%;
+            border:1;
+
+        }
+        .contact_article p{
+            line-height: 1.5em;
+        }
+        .address{
+            background-color: yellow;
+            width:100%;        
+        }
+        section h1,h3,p{
+            margin-left:5%;
+            position:relative;
+        }
+        
+        .address h1{
+            font-size:50px;
+        }
+        
+        hr{
+            position:relative;
+            margin-left:7px;
+            background-color: black;
+            height:2px;
+        
+        }
+    }
