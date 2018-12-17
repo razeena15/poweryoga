@@ -3,13 +3,9 @@
 }
 body{
     height: 100%;
+    font-family: 'Trade Gothic W01', 'TradeGothic', sans-serif;
 }
-nav> a> .navbar-brand{
-    background:no-repeat center top;
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-}
+
 
 .card-columns {
     @include media-breakpoint-only(lg) {
@@ -23,6 +19,7 @@ nav> a> .navbar-brand{
   .card-columns{
       display: inline-block;
   }
+
 
   table{
       align-content: center;
@@ -41,4 +38,8 @@ nav> a> .navbar-brand{
   
   footer nav{
     float:right;
+  }
+
+  aside{
+      align-content: center;
   }
