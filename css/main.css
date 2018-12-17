@@ -38,17 +38,8 @@ main{
 }
 ::-moz-selection {
     background: #b3d4fc;
-    text-shadow: none;
-.hero-image
-{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    text-shadow: none;}
 
-}
 /*Home Page ends*/
 
 ::selection {
@@ -357,7 +348,7 @@ nav a:hover {
     padding:0px;
     width:100%;
 }
-
+/*added by madhu*/
 .hero-text {
     text-align: left;
     position: absolute;
@@ -371,4 +362,14 @@ nav a:hover {
   
 .hero-text hr{
       background-color:black;
+  }
+  .hero-image
+  {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
   }
