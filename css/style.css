@@ -4,33 +4,18 @@
     width:100%;
 }
 
-/*body, html {
-    height: 100%;
-}
-
-.hero-image {
-
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/1.jpg");
-
-  height: 50%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}*/
-
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  color: black;
-  background:white;
-  padding:30px;
+  color:black;
+  background:oldlace;
+  padding:40px;
 }
 
-.container{
-    background:white;
+.hero-text hr{
+    background-color:black;
 }
+
