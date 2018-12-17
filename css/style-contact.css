@@ -35,6 +35,15 @@ main p{
     font-size:28px;
 }
 @media only screen and (max-width: 600px) {
+
+    main p{
+        text-align:center;
+        line-height: 1.5em;
+        margin-left:5%;
+        margin-right:5%;
+        
+    }
+
 article{
     display: flex;
     justify-content: stretch;
