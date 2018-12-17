@@ -278,3 +278,42 @@ main{
     position: relative;
   
   }
+  
+/*Pratyush*/
+
+
+.navbar
+{
+    top:0;
+    background-image: url("../img/about-hero2.jpg")
+}
+.nav
+{
+top:0;
+}
+.img
+{
+    background-size:auto;
+    
+}
+.container
+{
+    background:rgb(207, 195, 197);
+}
+.col-12
+{
+    width:100%;
+}
+hr{
+    width: 10%;
+    color: black;
+    height: 1px;
+    background-color: #333;
+}
+.display-4
+{
+    text-size:4rem;
+    text-shadow: 1px 1px 10px black;
+}
+
+/*Pratyush/
