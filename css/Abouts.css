@@ -5,7 +5,18 @@
 .navbar
 {
     top:0;
-    background-image: url("../img/about-hero2.jpg")
+    position:relative;
+
+    
+}
+.col-md-6
+{
+background: rgb(255, 255, 0);
+}
+
+.col-xl-6
+{
+    background:silver;
 }
 .nav
 {
@@ -16,6 +27,7 @@ top:0;
     background-size:auto;
     
 }
+
 .container
 {
     background:rgb(207, 195, 197);

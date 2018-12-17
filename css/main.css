@@ -281,11 +281,16 @@ main{
   
 /*Pratyush*/
 
+.col-12
+{
+    background-image: url("../img/about-hero2.jpg");
+    width:100%;
+    height: 500px;
 
+}
 .navbar
 {
     top:0;
-    background-image: url("../img/about-hero2.jpg")
 }
 .nav
 {
