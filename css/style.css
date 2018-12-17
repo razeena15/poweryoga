@@ -1,0 +1,21 @@
+.img-fluid{
+    margin: 0px;
+    padding:0px;
+    width:100%;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color:black;
+  background:oldlace;
+  padding:40px;
+}
+
+.hero-text hr{
+    background-color:black;
+}
+

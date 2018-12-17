@@ -20,3 +20,13 @@ nav> a> .navbar-brand{
   .card-columns{
       display: inline-block;
   }
+
+  table{
+      align-content: center;
+      box-align: center;
+      display: table;
+      margin: 40px 0;
+      width: 100%;
+      border-spacing: 10;
+      padding: 50px;
+  }
