@@ -27,7 +27,6 @@ top:0;
     background-size:auto;
     
 }
-
 .container
 {
     background:rgb(207, 195, 197);
@@ -35,6 +34,7 @@ top:0;
 .col-12
 {
     width:100%;
+
 }
 hr{
     width: 10%;
