@@ -16,6 +16,7 @@ main{
 {
     background: #E7E058;
     width: 100%;
+
     height: 200px;
     text-align: center;
 }
@@ -36,13 +37,21 @@ main{
     top:10px;
     width: 100%;
     height: 400px;
+
+}
+.yoga
+{
+    position: relative;
+    top: 0px;
 }
 .classchallenge
 {
     background: turquoise;
     float: right;
-    width: 400px
+
+    width: 400px;
     height: 500px;
+
 }
 .classes
 {
