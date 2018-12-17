@@ -5,7 +5,35 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+main{
+    background: beige;
+    text-align: center;
+    width: 100%;
+    height:200px;
+}
 
+.newpower
+{
+    background: #E7E058;
+    width: 100%;
+    height: 150px;
+}
+.yoga
+{
+    position: relative;
+    top: 0px;
+}
+.classchallenge
+{
+    background: turquoise;
+    float: right;
+}
+.classes
+{
+    position: relative;
+    top:500px;
+    background: #e6e6e6;
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
