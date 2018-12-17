@@ -30,3 +30,8 @@ nav> a> .navbar-brand{
       border-spacing: 10;
       padding: 50px; 
   }
+
+  table > td{
+      text-align: center;
+      padding: 20px 25px;
+  }
