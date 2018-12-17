@@ -1,7 +1,22 @@
+
+/*Pratyush*/
+
+
 .navbar
 {
     top:0;
-    background-image: url("../img/about-hero2.jpg")
+    position:relative;
+
+    
+}
+.col-md-6
+{
+background: rgb(255, 255, 0);
+}
+
+.col-xl-6
+{
+    background:silver;
 }
 .nav
 {
@@ -19,4 +34,18 @@ top:0;
 .col-12
 {
     width:100%;
+
 }
+hr{
+    width: 10%;
+    color: black;
+    height: 1px;
+    background-color: #333;
+}
+.display-4
+{
+    text-size:4rem;
+    text-shadow: 1px 1px 10px black;
+}
+
+/*Pratyush/
