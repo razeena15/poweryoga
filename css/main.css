@@ -7,6 +7,7 @@ html {
     line-height: 1.4;
 }
 
+
 main{
     background: beige;
     text-align: center;
@@ -21,6 +22,7 @@ main{
 
     height: 200px;
     text-align: center;
+    display: block;
 }
 .newpower h1{
     float: left;
@@ -36,20 +38,18 @@ main{
 .two
 {
     position: relative;
-    top:10px;
+    top:0px;
     width: 100%;
     height: 400px;
 
 }
-.yoga
-{
-    position: relative;
-    top: 0px;
-}
+
 .classchallenge
 {
-    background: turquoise;
+    background: rgba(127, 251, 255, 0.678);
     float: right;
+    margin-left: 10px;
+    padding-right: 270px;
     width: 400px;
     height: 500px;
 
@@ -57,8 +57,61 @@ main{
 .classes
 {
     position: relative;
-    top:500px;
-    background: #e6e6e6;
+    top:100px;
+    background-image: url("../img/10.jpg");
+    
+    width: 1600px;
+    height: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.phon
+{
+    width: 1600px;
+    position: relative;
+    top:100px;
+    display: flex;
+}
+.phone img
+{
+    width: 700px;
+    height:600px;
+}
+.newapp
+{
+    background: #E7E058;
+    width: 700px;
+    height: 600px;
+   float: right ;
+  
+  
+}
+.community
+{
+    position: relative;
+    top:170px;
+    background: none;
+    height: 300px;
+    width: 1600px;
+    text-align: center;
+    margin-left: 60px;
+}
+.event{
+    height: 800px;
+    width:1600px;
+    display: flex;
+
+}
+.event1
+{
+    background: #b3d4fc;
+    height: 600px;
+    width: 700px;
+}
+.event1 img{
+    height:600px;
+    width:700px;
+    float: right;
 }
 ::-moz-selection {
     background: #b3d4fc;
