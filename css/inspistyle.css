@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     height: 100%;
 }
@@ -28,14 +31,14 @@ nav> a> .navbar-brand{
       margin: 40px 0;
       width: 100%;
       border-spacing: 10;
-<<<<<<< HEAD
       padding: 50px; 
   }
 
   table > td{
       text-align: center;
       padding: 20px 25px;
-=======
-      padding: 50px;
->>>>>>> 90dae084e1ac9e18f870dd378ce4ab39cb15e5cc
+  }
+  
+  footer nav{
+    float:right;
   }
