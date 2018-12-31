@@ -1,12 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 body{
     height: 100%;
+    font-family: 'Trade Gothic W01', 'TradeGothic', sans-serif;
 }
-nav> a> .navbar-brand{
-    background:no-repeat center top;
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-}
+
 
 .card-columns {
     @include media-breakpoint-only(lg) {
@@ -21,6 +20,7 @@ nav> a> .navbar-brand{
       display: inline-block;
   }
 
+
   table{
       align-content: center;
       box-align: center;
@@ -28,5 +28,18 @@ nav> a> .navbar-brand{
       margin: 40px 0;
       width: 100%;
       border-spacing: 10;
-      padding: 50px;
+      padding: 50px; 
+  }
+
+  table > td{
+      text-align: center;
+      padding: 20px 25px;
+  }
+  
+  footer nav{
+    float:right;
+  }
+
+  aside{
+      align-content: center;
   }
